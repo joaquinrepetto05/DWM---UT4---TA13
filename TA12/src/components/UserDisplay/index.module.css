@@ -1,0 +1,68 @@
+.userDisplayContainer {
+    background-color: rgba(211, 211, 211, 0.4); /* Fondo gris claro semi-transparente */
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+
+    /* Transición suave cuando el fondo cambie de color */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.userDisplayContainer:hover {
+    background-color: rgba(211, 211, 211, 0.6); /* Fondo más oscuro al hacer hover */
+    transform: scale(1.05); /* Leve zoom al hacer hover */
+}
+
+.userDisplayText {
+    color: #333;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilo para el input */
+.userInputContainer {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.userInput {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+
+    /* Transición para el borde al hacer foco */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.userInput:focus {
+    border-color: #0056b3; /* Borde más oscuro al enfocar */
+    box-shadow: 0 0 5px rgba(0, 91, 187, 0.5); /* Sombra azul alrededor al hacer foco */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
